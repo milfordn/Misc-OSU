@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#FILES=`ls | grep "$1.*" | tr '\n' ' '
+#echo "using files: $FILES"
+
+gcc -g -c linklist.h linklist.c
+
+if [ "$2" == "-d" ]; then
+	gcc -g -o $1 $1.c linklist.o
+else
+	gcc -o $1 $1.c linklist.o
+fi
+
+SUCCESS=$?
+
+[[ $SUCCESS == 0 ]] && [[ $2 == "-r" ]] && $1 
+[[ $SUCCESS == 0 ]] && [[ $2 == "-d" ]] && gdb $1

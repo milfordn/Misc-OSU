@@ -1,0 +1,39 @@
+\begin{thebibliography}{1}
+
+\bibitem{215951}
+Justinien Bouron, Sebastien Chevalley, Baptiste Lepers, Willy Zwaenepoel, Redha
+  Gouicem, Julia Lawall, Gilles Muller, and Julien Sopena.
+\newblock The battle of the schedulers: Freebsd {ULE} vs. linux {CFS}.
+\newblock In {\em 2018 {USENIX} Annual Technical Conference ({USENIX} {ATC}
+  18)}, pages 85--96, Boston, MA, 2018. {USENIX} Association.
+
+\bibitem{Loonix}
+Marco~Cesati Daniel P.~Bovet.
+\newblock {\em Understanding the Linux Kernel}.
+\newblock O'Reilly UK Ltd., 2005.
+
+\bibitem{Love:2005:LKD:1214858}
+Robert Love.
+\newblock {\em Linux Kernel Development (2Nd Edition) (Novell Press)}.
+\newblock Novell Press, 2005.
+
+\bibitem{BSDM}
+Marshall~Kirk McKusick, George~V. Neville-Neil, and Robert N.~M. Watson.
+\newblock {\em The Design and Implementation of the FreeBSD Operating System}.
+\newblock Addison Wesley, 2014.
+
+\bibitem{creating-processes}
+Microsoft.
+\newblock Creating processes, 2018.
+
+\bibitem{Roberson03ule:a}
+Jeff Roberson.
+\newblock Ule: a modern scheduler for freebsd.
+\newblock In {\em In USENIX BSDCon}, pages 17--28, 2003.
+
+\bibitem{Wandos}
+Mark~E. Russinovich, David~A. Solomon, and Alex Ionescu.
+\newblock {\em Windows Internals, Part 2}.
+\newblock Microsoft Press,U.S., 2012.
+
+\end{thebibliography}

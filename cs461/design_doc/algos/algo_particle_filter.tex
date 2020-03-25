@@ -1,0 +1,24 @@
+
+\Procedure{FilterLoop}{}
+  \Input
+      \Desc{$weight\_calculation$:}{determines how likely a possible state is given an external measurement}
+      \Desc{$system\_noise$:}{gives a probability distribution of possible states given the last state and a control}
+  \EndInput
+
+\State $particles \gets \text{randomly assigned states}$
+
+\While {true}
+	\State $new\_particles \gets []$
+	\State $sum\_weights \gets 0$
+
+	\For{$\text{each particle in particles}$}
+	    \State $random\_particle \gets \text{random particle from particles by weight}$
+	    \State $random\_particle \gets system\_noise\text{(}random\_particle, control\text{)}$
+	    \State $new\_weight \gets weight\_calculation\text{(}random\_particle\text{)}$
+	    \State $sum\_weights \gets sum\_weights + new\_weight$
+	    \State $new\_particles.append\text{(}random\_particle\text{)}$
+    \EndFor
+    
+    \State $particles \gets new\_particles$
+\EndWhile
+\EndProcedure

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+PORT1=`RANDPORT`
+PORT2=`RANDPORT`
+
+otp_enc_d $PORT1 &
+otp_dec_d $PORT2 &
+
+otp_enc plaintext1 mykey $PORT2 > encoded
+otp_dec encoded mykey $PORT1
+
+pkill op_enc_d
+pkill op_dec_d

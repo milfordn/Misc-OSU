@@ -1,0 +1,10 @@
+# Copies all files to the ~/public_html directory
+# and makes them all public for web viewing
+
+if ( $# == 0 ) then
+	echo "Expected an arguement"
+	exit 1
+endif
+
+cp $1/* ~/public_html/
+chmod -R 755 ~/public_html

@@ -1,0 +1,17 @@
+Move disk 1 from tower 1 to tower 2
+Move disk 2 from tower 1 to tower 3
+Move disk 1 from tower 2 to tower 3
+Move disk 3 from tower 1 to tower 2
+Move disk 1 from tower 3 to tower 1
+Move disk 2 from tower 3 to tower 2
+Move disk 1 from tower 1 to tower 2
+Move disk 4 from tower 1 to tower 3
+Move disk 1 from tower 2 to tower 3
+Move disk 2 from tower 2 to tower 1
+Move disk 1 from tower 3 to tower 1
+Move disk 3 from tower 2 to tower 3
+Move disk 1 from tower 1 to tower 2
+Move disk 2 from tower 1 to tower 3
+Move disk 1 from tower 2 to tower 3
+
+----- CPU Time Used: 20011 nanoseconds -----

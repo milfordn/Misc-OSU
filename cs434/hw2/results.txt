@@ -1,0 +1,106 @@
+Train Set Size: 284
+Test Set Size: 284
+K = 1
+	Training Set: 0 errors
+	Cross-Validation: 9 errors
+	Testing Set: 11 errors
+K = 3
+	Training Set: 4 errors
+	Cross-Validation: 9 errors
+	Testing Set: 10 errors
+K = 5
+	Training Set: 4 errors
+	Cross-Validation: 10 errors
+	Testing Set: 11 errors
+K = 7
+	Training Set: 7 errors
+	Cross-Validation: 10 errors
+	Testing Set: 11 errors
+K = 9
+	Training Set: 10 errors
+	Cross-Validation: 13 errors
+	Testing Set: 13 errors
+K = 11
+	Training Set: 11 errors
+	Cross-Validation: 11 errors
+	Testing Set: 11 errors
+K = 13
+	Training Set: 10 errors
+	Cross-Validation: 13 errors
+	Testing Set: 11 errors
+K = 15
+	Training Set: 12 errors
+	Cross-Validation: 13 errors
+	Testing Set: 12 errors
+K = 17
+	Training Set: 12 errors
+	Cross-Validation: 14 errors
+	Testing Set: 11 errors
+K = 19
+	Training Set: 12 errors
+	Cross-Validation: 14 errors
+	Testing Set: 11 errors
+K = 21
+	Training Set: 13 errors
+	Cross-Validation: 14 errors
+	Testing Set: 10 errors
+K = 23
+	Training Set: 14 errors
+	Cross-Validation: 16 errors
+	Testing Set: 12 errors
+K = 25
+	Training Set: 15 errors
+	Cross-Validation: 15 errors
+	Testing Set: 11 errors
+K = 27
+	Training Set: 15 errors
+	Cross-Validation: 16 errors
+	Testing Set: 13 errors
+K = 29
+	Training Set: 15 errors
+	Cross-Validation: 16 errors
+	Testing Set: 12 errors
+K = 31
+	Training Set: 16 errors
+	Cross-Validation: 18 errors
+	Testing Set: 12 errors
+K = 33
+	Training Set: 17 errors
+	Cross-Validation: 19 errors
+	Testing Set: 12 errors
+K = 35
+	Training Set: 17 errors
+	Cross-Validation: 19 errors
+	Testing Set: 12 errors
+K = 37
+	Training Set: 19 errors
+	Cross-Validation: 19 errors
+	Testing Set: 12 errors
+K = 39
+	Training Set: 16 errors
+	Cross-Validation: 18 errors
+	Testing Set: 12 errors
+K = 41
+	Training Set: 15 errors
+	Cross-Validation: 18 errors
+	Testing Set: 12 errors
+K = 43
+	Training Set: 17 errors
+	Cross-Validation: 18 errors
+	Testing Set: 12 errors
+K = 45
+	Training Set: 16 errors
+	Cross-Validation: 19 errors
+	Testing Set: 11 errors
+K = 47
+	Training Set: 18 errors
+	Cross-Validation: 18 errors
+	Testing Set: 12 errors
+K = 49
+	Training Set: 18 errors
+	Cross-Validation: 20 errors
+	Testing Set: 13 errors
+K = 51
+	Training Set: 20 errors
+	Cross-Validation: 23 errors
+	Testing Set: 13 errors

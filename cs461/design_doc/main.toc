@@ -1,0 +1,35 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {subsection}{\numberline {1.1}Terminology}{3}
+\contentsline {subsection}{\numberline {1.2}Purpose}{3}
+\contentsline {subsection}{\numberline {1.3}Scope}{3}
+\contentsline {subsection}{\numberline {1.4}Stakeholders}{3}
+\contentsline {section}{\numberline {2}Design Components}{4}
+\contentsline {subsection}{\numberline {2.1}Camera}{4}
+\contentsline {subsubsection}{\numberline {2.1.1}Design View}{4}
+\contentsline {subsubsection}{\numberline {2.1.2}Design Viewpoints}{4}
+\contentsline {subsubsection}{\numberline {2.1.3}Design Elements}{5}
+\contentsline {subsubsection}{\numberline {2.1.4}Design Rationale}{5}
+\contentsline {subsubsection}{\numberline {2.1.5}Design Tools}{5}
+\contentsline {subsection}{\numberline {2.2}Lidar}{7}
+\contentsline {subsubsection}{\numberline {2.2.1}Design View}{7}
+\contentsline {subsubsection}{\numberline {2.2.2}Design Viewpoints}{7}
+\contentsline {subsubsection}{\numberline {2.2.3}Design Elements}{8}
+\contentsline {subsubsection}{\numberline {2.2.4}Design Tools}{9}
+\contentsline {subsubsection}{\numberline {2.2.5}Design Rationale}{9}
+\contentsline {subsection}{\numberline {2.3}Odometry}{10}
+\contentsline {subsubsection}{\numberline {2.3.1}Design View}{10}
+\contentsline {subsubsection}{\numberline {2.3.2}Design Viewpoints}{10}
+\contentsline {subsubsection}{\numberline {2.3.3}Design Elements}{10}
+\contentsline {subsubsection}{\numberline {2.3.4}Design Rationale}{10}
+\contentsline {subsubsection}{\numberline {2.3.5}Design Tools}{10}
+\contentsline {subsection}{\numberline {2.4}SLAM}{12}
+\contentsline {subsubsection}{\numberline {2.4.1}Design View}{12}
+\contentsline {subsubsection}{\numberline {2.4.2}Design Viewpoints}{12}
+\contentsline {subsubsection}{\numberline {2.4.3}Design Elements}{12}
+\contentsline {paragraph}{\numberline {2.4.3.1}Open Loop SLAM}{12}
+\contentsline {paragraph}{\numberline {2.4.3.2}Loop Closure and Localization}{13}
+\contentsline {paragraph}{\numberline {2.4.3.3}FastSlam Improvement}{13}
+\contentsline {subsubsection}{\numberline {2.4.4}Design Rationale}{14}
+\contentsline {paragraph}{\numberline {2.4.4.1}Open Loop SLAM}{14}
+\contentsline {paragraph}{\numberline {2.4.4.2}Loop Closure and Localization}{14}
+\contentsline {subsubsection}{\numberline {2.4.5}Design Tools}{14}

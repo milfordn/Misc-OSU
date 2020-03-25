@@ -1,0 +1,40 @@
+
+\Procedure{DetectionLoop}{}
+  \Input
+  \Desc{$fast\_model$:}{faster detection model that operates at higher frequency}
+  \Desc{$slow\_model$:}{slower detection model that operates at higher frequency}
+  \Desc{$fast\_refresh\_rate$:}{time in seconds between fast model detections}
+  \Desc{$slow\_refresh\_rate$:}{time in seconds between slower model detections}
+  \Desc{$length\_of\_history$:}{max number of frame predictions to store}
+  \EndInput
+\State $fast\_model\_last\_run \gets \text{0}$
+\State $fast\_model\_last\_run \gets \text{0}$
+
+\State $prediction\_history \gets$ list to store the last $length\_of\_history$ predictions
+
+\While {true}
+	\State $image \gets \text{waitForImage()}$
+	\State $time\_since\_fast\_model\_ran \gets fast\_model\_last\_run - \text{time.now()}$
+	\State $time\_since\_slow\_model\_ran \gets slow\_model\_last\_run - \text{time.now()}$
+
+	\If {$time\_since\_fast\_model\_ran > fast\_refresh\_rate \textbf{ and } fast\_model\text{.isAvailable()}$}
+    	\State $preprocessed\_image \gets preprocessImage(image)$
+    	\State $cone\_colors, bounding\_boxes \gets fast\_model\text{.getPredictionsInSeparateThread(}preprocessed\_image\text{)}$
+    	\State $fast\_model\_last\_run \gets \text{time.now()}$
+	\ElsIf {$time\_since\_slow\_model\_ran > slow\_refresh\_rate \textbf{ and } slow\_model\text{.isAvailable()}$}
+    	\State $cone\_colors, bounding\_boxes \gets slow\_model\text{.getPredictionsInSeparateThread(}preprocessed\_image\text{)}$
+    	\State $slow\_model\_last\_run \gets \text{time.now()}$
+	\Else
+		\State \textbf{continue}
+	\EndIf
+
+	\State $cone\_positions \gets \text{computeConePosition(}bounding\_boxes\text{)}$
+	\State $\text{publish(} cone\_colors, cone\_positions\text{)}$
+	\State $prediction\_history\text{.add(} cone\_colors, cone\_positions \text{)}$
+
+	\If{$length\_of\_history > prediction\_history\text{.getLength()}$}
+		\State $prediction\_history\text{.removeOldestPrediction()}$
+	\EndIf
+
+\EndWhile
+\EndProcedure

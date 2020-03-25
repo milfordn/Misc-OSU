@@ -1,0 +1,3 @@
+#!/bin/bash
+
+gcc -g -lpthread -o milfordn.$1 milfordn.$1.c

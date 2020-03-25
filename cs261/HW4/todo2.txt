@@ -1,0 +1,4 @@
+0	nap
+1	study qs
+3	do asgmt 5
+101	rev treees

@@ -1,0 +1,992 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.11)  19 NOV 2018 16:37
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**algo_cone_detector.tex
+(./algo_cone_detector.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+
+! LaTeX Error: Environment algorithm undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{algorithm}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \caption
+            {Cone Detector}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \caption{C
+              one Detector}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--5
+[]
+ []
+
+
+! LaTeX Error: Environment algorithmic undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \begin{algorithmic}
+                       [1]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \begin{algorithmic}[
+                        1]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.9 \State
+           $fast\_model \gets \text{faster detection model that operates at ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 9.
+! Undefined control sequence.
+l.9 \State $fast\_model \gets \text
+                                   {faster detection model that operates at ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.10 \State
+            $fast\_model\_refresh\_rate \gets \text{time in seconds between ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.10 ...te $fast\_model\_refresh\_rate \gets \text
+                                                  {time in seconds between f...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.11 \State
+            $fast\_model\_last\_run \gets \text{0}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.11 \State $fast\_model\_last\_run \gets \text
+                                               {0}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 8--12
+[]
+ []
+
+
+Overfull \hbox (59.00356pt too wide) in paragraph at lines 8--12
+\OML/cmm/m/it/10 fast[]model \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (236.52048pt too wide) in paragraph at lines 8--12
+[]$
+ []
+
+
+Overfull \hbox (112.6588pt too wide) in paragraph at lines 8--12
+\OML/cmm/m/it/10 fast[]model[]refresh[]rate \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (190.93079pt too wide) in paragraph at lines 8--12
+[]$
+ []
+
+
+Overfull \hbox (92.28493pt too wide) in paragraph at lines 8--12
+\OML/cmm/m/it/10 fast[]model[]last[]run \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 8--12
+\OT1/cmr/m/n/10 0$ 
+ []
+
+! Undefined control sequence.
+l.13 \State
+            $\textit{slow\_model} \gets \text{slower detection model that op...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \State $
+             \textit{slow\_model} \gets \text{slower detection model that op...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.13 \State $\textit{slow\_model} \gets \text
+                                             {slower detection model that op...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 \State
+            $\textit{slow\_model\_refresh\_rate} \gets \text{time in seconds...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 ...it{slow\_model\_refresh\_rate} \gets \text
+                                                  {time in seconds between s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.15 \State
+            $fast\_model\_last\_run \gets \text{0}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.15 \State $fast\_model\_last\_run \gets \text
+                                               {0}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (79.90189pt too wide) in paragraph at lines 13--16
+[]$[] \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (232.46657pt too wide) in paragraph at lines 13--16
+[]$
+ []
+
+
+Overfull \hbox (112.87811pt too wide) in paragraph at lines 13--16
+[] \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (191.51758pt too wide) in paragraph at lines 13--16
+[]$
+ []
+
+
+Overfull \hbox (92.28493pt too wide) in paragraph at lines 13--16
+\OML/cmm/m/it/10 fast[]model[]last[]run \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 13--16
+\OT1/cmr/m/n/10 0$ 
+ []
+
+! Undefined control sequence.
+l.17 \State
+            $length\_of\_history \gets \text{max number of frame predictions...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \State $
+             length\_of\_history \gets \text{max number of frame predictions...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.17 \State $length\_of\_history \gets \text
+                                            {max number of frame predictions...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18 \State
+            $prediction\_history \gets$ list to store the last $length\_of\_...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+
+Overfull \hbox (104.34108pt too wide) in paragraph at lines 17--19
+[]$\OML/cmm/m/it/10 length[]of[]history \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (175.42664pt too wide) in paragraph at lines 17--19
+[]$
+ []
+
+
+Overfull \hbox (90.5415pt too wide) in paragraph at lines 17--19
+\OML/cmm/m/it/10 prediction[]history \OMS/cmsy/m/n/10  $
+ []
+
+
+Overfull \hbox (71.56335pt too wide) in paragraph at lines 17--19
+\OML/cmm/m/it/10 length[]of[]history$
+ []
+
+! Undefined control sequence.
+l.20 \While
+            {true}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \While {t
+              rue}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+! Undefined control sequence.
+l.21 	\State
+             $image \gets \text{waitForImage()}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.21 	\State $image \gets \text
+                               {waitForImage()}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.22 	\State
+             $t1 \gets \text{current time}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.22 	\State $t1 \gets \text
+                            {current time}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 20--23
+[]
+ []
+
+
+Overfull \hbox (40.07361pt too wide) in paragraph at lines 20--23
+\OML/cmm/m/it/10 image \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (74.03554pt too wide) in paragraph at lines 20--23
+[]$
+ []
+
+
+Overfull \hbox (21.38885pt too wide) in paragraph at lines 20--23
+\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (54.39325pt too wide) in paragraph at lines 20--23
+[]$ 
+ []
+
+! Undefined control sequence.
+l.24 	\If
+          {$fast\_model\_last\_run - t1 > fast\_model\_refresh\_rate \text{ ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 	\If {$
+            fast\_model\_last\_run - t1 > fast\_model\_refresh\_rate \text{ ...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.24 ...un - t1 > fast\_model\_refresh\_rate \text
+                                                  { and } fast\_model\text{....
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.24 ...efresh\_rate \text{ and } fast\_model\text
+                                                  {.isAvailable()}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.25     	\State
+                 $preprocessed\_image \gets preprocessImage(image)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.26     	\State
+                 $cone\_colors, bounding\_boxes \gets fast\_model\text{.getP...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.26 ...rs, bounding\_boxes \gets fast\_model\text
+                                                  {.getPredictionsInSeparate...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.26 ...InSeparateThread(}preprocessed\_image\text
+                                                  {)}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.27     	\State
+                 $fast\_model\_last\_run \gets \text{current time}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.27 ...\State $fast\_model\_last\_run \gets \text
+                                                  {current time}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.28 	\ElsIf
+             {$slow\_model\_last\_run - t1 > slow\_model\_refresh\_rate \tex...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.28 ...un - t1 > slow\_model\_refresh\_rate \text
+                                                  { and } slow\_model\text{....
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.28 ...efresh\_rate \text{ and } slow\_model\text
+                                                  {.isAvailable()}}$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten $.
+l.28 ...t{ and } slow\_model\text{.isAvailable()}}
+                                                  $}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.29     	\State
+                 $cone\_colors, bounding\_boxes \gets slow\_model\text{.getP...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.29 ...rs, bounding\_boxes \gets slow\_model\text
+                                                  {.getPredictionsInSeparate...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.29 ...getPredictionsInSeparateThread(}image\text
+                                                  {)}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.30     	\State
+                 $slow\_model\_last\_run \gets \text{current time}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.30 ...\State $slow\_model\_last\_run \gets \text
+                                                  {current time}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.31 	\Else
+           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.32 		\State
+              continue
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+! Undefined control sequence.
+l.33 	\EndIf
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (107.285pt too wide) in paragraph at lines 24--34
+[]$\OML/cmm/m/it/10 fast[]model[]last[]run \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (19.16664pt too wide) in paragraph at lines 24--34
+\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 1 \OML/cmm/m/it/10 >
+ []
+
+
+Overfull \hbox (223.32022pt too wide) in paragraph at lines 24--34
+\OML/cmm/m/it/10 fast[]model[]refresh[]rate[]fast[]model[]$
+ []
+
+
+Overfull \hbox (97.4383pt too wide) in paragraph at lines 24--34
+\OML/cmm/m/it/10 preprocessed[]image \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (111.60854pt too wide) in paragraph at lines 24--34
+\OML/cmm/m/it/10 preprocessImage\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 image\OT1/cmr
+/m/n/10 )$
+ []
+
+
+Overfull \hbox (128.57954pt too wide) in paragraph at lines 24--34
+\OML/cmm/m/it/10 cone[]colors; bounding[]boxes \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (291.80124pt too wide) in paragraph at lines 24--34
+\OML/cmm/m/it/10 fast[]model[]preprocessed[]image[]$
+ []
+
+
+Overfull \hbox (92.28493pt too wide) in paragraph at lines 24--34
+\OML/cmm/m/it/10 fast[]model[]last[]run \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (54.39325pt too wide) in paragraph at lines 24--34
+[]$
+ []
+
+
+Overfull \hbox (87.8718pt too wide) in paragraph at lines 24--34
+\OML/cmm/m/it/10 slow[]model[]last[]run \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (19.16664pt too wide) in paragraph at lines 24--34
+\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 1 \OML/cmm/m/it/10 >
+ []
+
+
+Overfull \hbox (224.4938pt too wide) in paragraph at lines 24--34
+\OML/cmm/m/it/10 slow[]model[]refresh[]rate[]slow[]model[]$
+ []
+
+
+Overfull \hbox (128.57954pt too wide) in paragraph at lines 24--34
+\OML/cmm/m/it/10 cone[]colors; bounding[]boxes \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (235.02335pt too wide) in paragraph at lines 24--34
+\OML/cmm/m/it/10 slow[]model[]image[]$
+ []
+
+
+Overfull \hbox (92.87172pt too wide) in paragraph at lines 24--34
+\OML/cmm/m/it/10 slow[]model[]last[]run \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (54.39325pt too wide) in paragraph at lines 24--34
+[]$
+ []
+
+! Undefined control sequence.
+l.35 	\State
+             $cone\_positions \gets \text{computeConePosition(}bounding\_box...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 	\State $
+              cone\_positions \gets \text{computeConePosition(}bounding\_box...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.35 	\State $cone\_positions \gets \text
+                                         {computeConePosition(}bounding\_box...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.35 ...{computeConePosition(}bounding\_boxes\text
+                                                  {)}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.36 	\State
+             $\text{publish(} cone\_colors, cone\_positions\text{)}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \text 
+                      
+l.36 	\State $\text
+                   {publish(} cone\_colors, cone\_positions\text{)}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.36 ...blish(} cone\_colors, cone\_positions\text
+                                                  {)}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.37 	\State
+             $prediction\_history\text{.add(} cone\_colors, cone\_positions ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.37 	\State $prediction\_history\text
+                                      {.add(} cone\_colors, cone\_positions ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.37 ....add(} cone\_colors, cone\_positions \text
+                                                  {)}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (93.21556pt too wide) in paragraph at lines 35--38
+[]$\OML/cmm/m/it/10 cone[]positions \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (171.66353pt too wide) in paragraph at lines 35--38
+[]\OML/cmm/m/it/10 bounding[]boxes[]$
+ []
+
+
+Overfull \hbox (151.29518pt too wide) in paragraph at lines 35--38
+[]\OML/cmm/m/it/10 cone[]colors; cone[]positions[]$
+ []
+
+
+Overfull \hbox (215.4101pt too wide) in paragraph at lines 35--38
+\OML/cmm/m/it/10 prediction[]history[]cone[]colors; cone[]positions[]$ 
+ []
+
+! Undefined control sequence.
+l.39 	\If
+         {$length\_of\_history \text{ is greater than the number of predicti...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 	\If{$
+           length\_of\_history \text{ is greater than the number of predicti...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.39 	\If{$length\_of\_history \text
+                                    { is greater than the number of predicti...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.40 		\State
+              $prediction\_history\text{.removeOldestPrediction()}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.40 		\State $prediction\_history\text
+                                       {.removeOldestPrediction()}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.41 	\EndIf
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (349.62547pt too wide) in paragraph at lines 39--42
+[]$\OML/cmm/m/it/10 length[]of[]history[]prediction[]history$
+ []
+
+
+Overfull \hbox (198.63855pt too wide) in paragraph at lines 39--42
+\OML/cmm/m/it/10 prediction[]history[]$ 
+ []
+
+! Undefined control sequence.
+l.43 \EndWhile
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{algorithmic}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 \end{algorithmic}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.44 \end{algorithmic}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{algorithm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 \end{algorithm}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> algo_cone_detector.tex
+                          
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 17 strings out of 493029
+ 314 string characters out of 6136233
+ 57069 words of memory out of 5000000
+ 3652 multiletter control sequences out of 15000+600000
+ 3986 words of font info for 15 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 18i,4n,12p,168b,78s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

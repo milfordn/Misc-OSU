@@ -1,0 +1,139 @@
+#!/bin/bash
+
+TRACE=0
+tempFile="TEMP$$"
+dataFile=""
+syntaxMessage="./stats {-rows | -cols} [file]"
+
+function averageAll
+{
+	sum=0
+	count=0
+	while read line
+	do
+		sum=`expr $sum + $line`
+		count=`expr $count + 1`
+	done
+	expr $sum / $count
+}
+
+function max
+{
+	if [ $1 -gt $2 ]
+	then
+		echo $1
+	else
+		echo $2
+	fi
+}
+
+function median
+{
+	easyMedian=`expr $1 % 2`
+	mididx=`expr $1 / 2`
+	nextidx=`expr $mididx + 1`	
+	data=`cat | sort -n`
+
+	mid=`echo "$data" | head -n$mididx | tail -n1`
+	nextmid=`echo "$data" | head -n$nextidx | tail -n1`
+
+	if [[ `expr "$1" % 2`  == 1 ]]
+	then
+		echo $nextmid
+	else
+		echo `max $mid $nextmid`
+	fi
+}
+
+#check number of arguments
+if [ "$#" = "1" ]
+then #no file given, write stdin to a temp file
+	TRACE && echo "Creating temp file"
+	cat > "$tempFile"
+
+	#start over with a proper file:
+	stats "$1" "$tempFile"
+	rm "$tempFile"
+	exit 0
+
+elif [ "$#" = "2" ]
+then #file argument given
+	dataFile=$2
+
+	#check for file exists
+	if [ ! -f $dataFile ]
+	then
+		echo "./stats: no such file: $dataFile"
+		exit 1
+	#check for read permissions
+	elif [ ! -r $dataFile ]
+	then
+		echo "./stats: cannot read $dataFile"
+		exit 1
+	fi
+
+	TRACE && echo "Using file $dataFile"
+else
+	echo $syntaxMessage
+	exit 1
+fi
+
+cols=`head -n1 $dataFile | wc -w`
+rows=`cat $dataFile | wc -l`
+touch $tempFile
+
+TRACE && echo "$rows rows, $cols cols"
+
+#check for rows/columns argument
+if [[ $1 == -r* ]]
+then
+	TRACE && echo "baking row function"
+
+	function getData
+	{
+		cat $dataFile | head -n$1 | tail -n1 | tr '\t' '\n'
+	}
+
+	echo -e "Average\tMedian" >> $tempFile
+
+	for i in `seq 1 $rows`
+	do
+		avg=`getData $i | averageAll`
+		med=`getData $i | median $cols`
+		echo -e "$avg\t$med" >> $tempFile
+	done
+
+elif [[ $1 == -c* ]]
+then
+	TRACE && echo "baking column function"
+
+	function getData
+	{
+		cat $dataFile | cut -f$1
+	}
+
+	echo -n -e "Average:\t" >> $tempFile
+
+	for i in `seq 1 $cols`
+	do
+		avg=`getData $i | averageAll`
+		echo -n -e "$avg\t" >> $tempFile
+	done
+
+	echo -n -e "\nMedian :\t" >> $tempFile
+
+	for i in `seq 1 $cols`
+	do
+		med=`getData $i | median $rows`
+		echo -n -e "$med\t" >> $tempFile
+	done
+
+else
+	echo $syntaxMessage
+	exit 1
+fi
+cat $tempFile
+rm $tempFile
+
+exit 0
+

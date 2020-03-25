@@ -1,0 +1,16 @@
+#!/bin/bash
+
+DIR=.
+
+if [[ $# == 1 ]]
+then
+	DIR=$1
+fi	
+
+cd $DIR
+
+gcc -o keygen keygen.c
+gcc -o otp_enc otp_enc.c common.h -D PROGRAM_ID=ENC_CLIENT_ID
+gcc -o otp_enc_d otp_enc_d.c common.h -D PROGRAM_ID=ENC_SERVER_ID
+gcc -o otp_dec otp_dec.c common.h -D PROGRAM_ID=DEC_CLIENT_ID
+gcc -o otp_dec_d otp_dec_d.c common.h -D PROGRAM_ID=DEC_SERVER_ID
